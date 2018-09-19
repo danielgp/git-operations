@@ -1,0 +1,48 @@
+{
+    "Git-Log switches": {
+        "an": "Author Name",
+        "ae": "Author Email",
+        "cn": "Committer Name",
+        "ce": "Commiter Email",
+        "T": "Tree Hash",
+        "H": "Commit Hash",
+        "aI": "Author Date [Strict ISO 8601 Format]",
+        "cI": "Committer Date [Strict ISO 8601 Format]",
+        "D": "Reference Name",
+        "s": "Subject",
+        "-": "Changes, Insertions, Deletions"
+    },
+    "Headers for Export": {
+        "Commits": [
+            "Author Name",
+            "Author Email",
+            "Committer Name",
+            "Commiter Email",
+            "Tree Hash",
+            "Commit Hash",
+            "Author Date [Strict ISO 8601 Format]",
+            "Committer Date [Strict ISO 8601 Format]",
+            "Ref Name",
+            "Subject",
+            "Files Changed",
+            "Lines of Code Inserted",
+            "Lines of Code Deleted",
+            "Author Date UTC",
+            "Committer Date UTC"
+        ],
+        "Tags": [
+            "Tree Hash",
+            "Commit Hash",
+            "Author Date [Strict ISO 8601 Format]",
+            "Committer Date [Strict ISO 8601 Format]",
+            "Reference Name",
+            "Author Date UTC",
+            "Committer Date UTC"
+        ]
+    },
+    "Special Switches": {
+        "aI": "Date Time in ISO 8601 Format",
+        "cI": "Date Time in ISO 8601 Format",
+        "-": "Multiple columns to generate"
+    }
+}
