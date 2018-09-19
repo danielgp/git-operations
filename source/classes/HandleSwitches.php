@@ -26,7 +26,7 @@
 
 namespace danielgp\git_operations;
 
-class HandleSwitches
+trait HandleSwitches
 {
 
     use \danielgp\io_operations\InputOutputTiming;

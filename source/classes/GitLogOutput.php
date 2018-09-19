@@ -26,10 +26,11 @@
 
 namespace danielgp\git_operations;
 
-class GitLogOutput extends HandleSwitches
+class GitLogOutput
 {
 
-    use \danielgp\io_operations\InputOutputFiles;
+    use \danielgp\io_operations\InputOutputFiles,
+        HandleSwitches;
 
     private $arraySpecialSwitches = [];
     private $configDetailsArray   = [];
