@@ -32,9 +32,9 @@ $inParameters        = $appN->checkInputParameters([
     'strInputFormat:'       => 'input format (switches)', // Mandatory value
     'strInputPath:'         => 'input path', // Mandatory value
     'strInputFileName:'     => 'input file', // Mandatory value
+    'strOutputHeaderLabel:' => 'configured header', // Mandatory value
     'strOutputPath:'        => 'input path', // Mandatory value
     'strOutputFileName:'    => 'output file', // Mandatory value
-    'strOutputHeaderLabel:' => 'configured header', // Mandatory value
     ]);
 $strInputFile        = $appN->checkFileExistance($inParameters['strInputPath'], $inParameters['strInputFileName']);
 $contentInputFileRaw = $appN->getFileEntireContent($strInputFile);
