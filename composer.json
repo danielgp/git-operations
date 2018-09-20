@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "danielgp\\git_operations\\": "vendor/danielgp/git-operations/"
+            "danielgp\\io_operations\\": "vendor/danielgp/io-operations/"
         },
         "classmap": [
             "source/classes/GitLogNormalize.php",
